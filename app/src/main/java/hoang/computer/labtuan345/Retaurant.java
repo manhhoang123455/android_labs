@@ -27,5 +27,9 @@ public class Retaurant {
     {
         return (type);
     }
+    @Override
+    public String toString()
+    {
+        return (getName()+"\n"+getAddress());
+    }
 }
-
